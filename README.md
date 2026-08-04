@@ -26,184 +26,191 @@
 
 I am **Mohammed MEZO** — a multi-domain software engineer, product architect, technical founder, and engineering leader whose programming journey began in **2008**.
 
-My experience spans **game development, application development, web platforms, Android operating systems, backend services, cloud delivery, automation infrastructure, and AI-enhanced products**. I operate across the full product lifecycle: vision, architecture, implementation, infrastructure, validation, deployment, release governance, and continuous evolution.
+My work spans **game development, applications, web platforms, Android operating systems, backend services, cloud delivery, automation infrastructure, digital commerce, and AI-enhanced products**. I operate across the complete product lifecycle: vision, architecture, implementation, infrastructure, validation, deployment, release governance, and continuous evolution.
 
-Today, I lead **DeadZone** as Founder and Engineering Lead. I do not approach software as a collection of disconnected features. I build complete engineering systems that can repeatedly transform an idea into a stable, maintainable, deployable product.
+Today, I lead **DeadZone** as Founder and Engineering Lead. I do not treat software as disconnected features. I build engineering systems that repeatedly transform an idea into a stable, maintainable, deployable product.
 
 > **I do not only write code. I architect products, automate execution, govern quality, and lead delivery from concept to production.**
 
----
-
-# 🧠 Engineering identity
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏛️ Engineering leadership
-- Define technical strategy and product direction
-- Convert complex ideas into executable architecture
-- Own quality, security, delivery, and operational standards
-- Build systems that allow teams and products to scale
-
-</td>
-<td width="50%" valign="top">
-
-### ⚡ Product execution
-- Move from concept to production without losing structure
-- Balance speed with reliability and maintainability
-- Design reusable foundations instead of one-off solutions
-- Use automation and AI to increase engineering leverage
-
-</td>
-</tr>
-</table>
-
 <p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Animated engineering production terminal" />
+  <img src="./assets/journey.svg" width="100%" alt="Animated engineering journey since 2008" />
 </p>
 
 ---
 
-# 💼 Professional domains
+# 🧠 MEZO engineering system
 
-## 🎮 Game Developer
-I design interactive systems where performance, logic, timing, mechanics, feedback, and user experience must work together. Game development shaped my ability to think in real-time systems, optimize behavior, and build software around clear rules and measurable outcomes.
+<p align="center">
+  <img src="./assets/ecosystem.svg" width="100%" alt="Animated MEZO engineering ecosystem" />
+</p>
 
-## 📱 Application Developer
-I build mobile and desktop applications, utilities, internal tools, dashboards, and product interfaces. My focus is not only functionality, but also architecture, integration, usability, maintainability, and production readiness.
+The system is built around four connected capabilities:
 
-## 🌐 Web Platform Developer
-I develop modern websites, business platforms, e-commerce systems, landing experiences, dashboards, APIs, control panels, and operational tools. I combine frontend quality, backend logic, data flow, security, deployment, and product strategy.
+- 🎮 **Products:** games, mobile applications, business tools, and commerce experiences.
+- 📱 **Platforms:** Android systems, websites, APIs, dashboards, and backend services.
+- ⚙️ **Automation:** CI/CD, bots, build systems, cloud workflows, and release operations.
+- 🤖 **AI:** agents, connected tools, intelligent automation, and engineering acceleration.
 
-## 🤖 Android Systems Engineer
-I work below the application layer across **AOSP, HyperOS, framework, SystemUI, Android services, vendor and ODM integration, boot flows, recovery, partition images, packaging, AVB-aware workflows, signing, and release engineering**.
-
-## 🧠 AI Builder
-I integrate AI into real products, coding workflows, internal agents, business operations, analysis systems, and automation pipelines. I treat AI as an engineering capability that should reduce friction, improve decisions, and create measurable product value.
-
-## ⚙️ Automation Architect
-I replace fragile manual processes with bots, scripts, CI/CD pipelines, build matrices, stateful workflows, artifact systems, notifications, cloud services, and intelligent orchestration.
+Everything converges into one outcome: **production delivery**.
 
 ---
 
-# 🧬 DeadZone — engineering platform
+# 🏆 Selected engineering work
 
-**DeadZone is not only a ROM brand. It is a software engineering ecosystem.**
+<p align="center">
+  <img src="./assets/portfolio.svg" width="100%" alt="Selected engineering work" />
+</p>
 
-As Founder and Engineering Lead, I own:
+### 🧬 DeadZone ROM Platform
+Android systems and ROM engineering ecosystem covering architecture, adaptation, framework work, build delivery, and release governance.  
+**Role:** Founder & Engineering Lead · **Explore:** [DeadZone platform](https://deadzone.web.id/) · [ROM releases](https://t.me/xDeadZone)
 
-- 🧭 **Technical strategy and roadmap**
-- 🏗️ **Platform and product architecture**
-- 🔁 **Automation and delivery systems**
-- 🛡️ **Quality, integrity, and release governance**
-- 📦 **Build, packaging, publishing, and distribution**
-- 📡 **Operational visibility and release communication**
-- 🧪 **Research, experimentation, and next-generation tooling**
+### ⚙️ DeadZone Build Factory
+Automated firmware engineering workflows for extraction, patching, compatibility, validation, packaging, checksums, artifacts, and controlled release.  
+**Explore:** [DeadZone Build](https://github.com/mohammedmezo99/DeadZone-Build) · [Xiaomi Stock Toolbuild](https://github.com/hypermezo4-create/xiaomi-stocktoolbuild)
 
-The objective is never simply to make software run. The objective is to create a system that is **repeatable, observable, maintainable, secure, supportable, and ready to evolve**.
+### 🤖 MEZO AI Systems
+AI agents and connected engineering tools designed to reduce repetitive work, accelerate development, and improve operational decision-making.  
+**Explore:** [MEZO AI](https://github.com/hypermezo4-create/MEZO_Ai)
 
----
+### 🛍️ Digital Commerce Engineering
+Product design and engineering for catalogs, orders, dashboards, visual systems, business operations, deployment, and automation.
 
-# 🏢 Product and engineering capabilities
+### 🎮 Game Development Lab
+Interactive systems, mechanics, real-time logic, performance, feedback loops, and experience-focused engineering.
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 📱 Product platforms
-- Android systems and ROMs
-- Mobile applications
-- Web platforms and stores
-- Dashboards and control panels
-- Developer and internal tools
-
-</td>
-<td width="33%" valign="top">
-
-### 🛠️ Engineering systems
-- Architecture and backend logic
-- CI/CD and build orchestration
-- Cloud and database integration
-- Release and artifact pipelines
-- Monitoring and operational workflows
-
-</td>
-<td width="33%" valign="top">
-
-### 🧪 Innovation systems
-- AI-assisted development
-- Intelligent agents and tools
-- Automated product workflows
-- Performance engineering
-- Rapid experimentation and iteration
-
-</td>
-</tr>
-</table>
+### 🌐 Web Platforms
+Websites, product surfaces, dashboards, APIs, control panels, backend integration, and production deployment.
 
 ---
 
-# 🔄 Executive delivery model
+# 📚 Engineering case studies
+
+## 1. 🧬 DeadZone ROM Engineering
+
+**Challenge**  
+Transform Android firmware work from manual modification into a controlled product-delivery process.
+
+**Engineering approach**  
+Source assessment → extraction → platform detection → framework and vendor integration → compatibility validation → packaging → integrity checks → release operations.
+
+**Outcome**  
+A repeatable engineering direction capable of supporting multiple ROM editions, device adaptation, automation, and release governance.
+
+## 2. 🤖 AI-assisted engineering platform
+
+**Challenge**  
+Reduce context switching and repetitive manual work across development, repositories, builds, releases, and operations.
+
+**Engineering approach**  
+Connected AI agents, repository-aware tools, controlled automations, workflow orchestration, and human-supervised execution.
+
+**Outcome**  
+Faster engineering iteration, stronger operational visibility, and a foundation for intelligent development workflows.
+
+## 3. 🛍️ Digital commerce systems
+
+**Challenge**  
+Build a real operating system for commerce rather than a visual storefront alone.
+
+**Engineering approach**  
+Product catalog, orders, merchandising, analytics, automation, operational dashboards, visual identity, and production deployment.
+
+**Outcome**  
+A business-oriented digital platform designed to support daily operations and continuous product improvement.
+
+---
+
+# 🎯 What I deliver
+
+- 🚀 Turn product ideas into production-ready systems.
+- 🏛️ Design architecture that remains understandable as complexity grows.
+- ⚙️ Automate build, validation, deployment, and release operations.
+- 📱 Deliver across Android, applications, web, backend, and cloud layers.
+- 🤖 Integrate AI where it creates measurable engineering leverage.
+- 🛡️ Establish quality, integrity, traceability, and rollback discipline.
+- 📦 Own delivery from planning through post-release support.
+
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Animated production terminal" />
+</p>
+
+---
+
+# 🔬 Engineering operating model
 
 ```text
-VISION & BUSINESS OBJECTIVE
-            ↓
-PRODUCT STRATEGY & TECHNICAL ARCHITECTURE
-            ↓
-ENGINEERING SYSTEM & IMPLEMENTATION
-            ↓
-AUTOMATED VALIDATION & QUALITY GOVERNANCE
-            ↓
-DEPLOYMENT, PACKAGING & RELEASE CONTROL
-            ↓
-OBSERVABILITY, SUPPORT & CONTINUOUS EVOLUTION
+VISION & PRODUCT DIRECTION
+           ↓
+REQUIREMENTS & ARCHITECTURE
+           ↓
+ENGINEERING & INTEGRATION
+           ↓
+AUTOMATION & QUALITY GATES
+           ↓
+SECURITY / INTEGRITY / VALIDATION
+           ↓
+DEPLOYMENT & RELEASE GOVERNANCE
+           ↓
+OBSERVABILITY / SUPPORT / ITERATION
 ```
 
 <p align="center">
-  <img src="./assets/pipeline.svg" width="100%" alt="Animated software delivery pipeline" />
+  <img src="./assets/pipeline.svg" width="100%" alt="Animated engineering delivery pipeline" />
 </p>
 
 ---
 
-# 🛠️ Technical command matrix
+# 🛡️ Engineering principles
 
-<table>
-<tr>
-<td width="25%" valign="top">
+| Principle | Operating meaning |
+|---|---|
+| 🏛️ **Architecture before complexity** | Create clear boundaries and ownership before adding more features. |
+| ⚙️ **Automation before repetition** | Repeated manual work becomes a tool, pipeline, or controlled workflow. |
+| ✅ **Evidence before release** | A release requires validation, traceability, and observable results. |
+| 🚀 **Products, not demos** | Engineering is complete only when the result is usable and supportable. |
+| 🤖 **AI as infrastructure** | AI belongs inside workflows where it creates reliable leverage. |
+| 🧭 **Ownership end to end** | Responsibility continues from idea and architecture through production support. |
+| 🔐 **Integrity by design** | Security, signing, checksums, permissions, and rollback are planned early. |
+| 📈 **Improve the system** | Every failure should strengthen the process that allowed it to happen. |
 
-### 🤖 Android internals
-`AOSP` `HyperOS` `Framework`  
-`SystemUI` `Services` `Smali`  
-`Vendor` `ODM` `Boot` `Recovery`
+---
 
-</td>
-<td width="25%" valign="top">
+# 🔴 Currently building
 
-### 🌐 Web & applications
-`Next.js` `React` `Node.js`  
-`JavaScript` `TypeScript`  
-`APIs` `UI Systems` `E-commerce`
+```yaml
+currently_building:
+  - DeadZone ROM engineering platform
+  - automated ROM build and release systems
+  - AI-powered software development tools
+  - digital commerce and business platforms
 
-</td>
-<td width="25%" valign="top">
+engineering_focus:
+  - platform reliability
+  - intelligent automation
+  - scalable architecture
+  - release integrity and traceability
+  - mobile-first product quality
+```
 
-### ⚙️ Core engineering
-`Python` `Bash` `Kotlin` `Java`  
-`C` `C++` `GitHub Actions`  
-`Docker` `Linux` `Git`
+---
 
-</td>
-<td width="25%" valign="top">
+# 🧩 Technical capability map
 
-### ☁️ Infrastructure
-`Cloudflare` `Fly.io` `Vercel`  
-`PostgreSQL` `Telegram APIs`  
-`Artifacts` `Release Automation`
+**Android systems**  
+`AOSP` `HyperOS` `Framework` `SystemUI` `Services` `Smali` `Vendor` `ODM` `Boot` `Recovery` `AVB`
 
-</td>
-</tr>
-</table>
+**Applications and games**  
+`Product Architecture` `Interactive Logic` `Performance` `Mobile UX` `Tools` `Utilities`
+
+**Web and backend**  
+`Next.js` `React` `Node.js` `TypeScript` `APIs` `Dashboards` `PostgreSQL` `Commerce Systems`
+
+**Build and automation**  
+`Python` `Bash` `GitHub Actions` `Docker` `Linux` `Build Matrices` `Artifact Pipelines` `Telegram Bots`
+
+**Infrastructure and delivery**  
+`Cloudflare` `Fly.io` `Vercel` `Databases` `Checksums` `Release Automation` `Observability`
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,c,cpp,python,bash,linux,git,github,githubactions,docker,cloudflare,ts,js,nextjs,react,nodejs,tailwind,postgres,vscode&perline=11" alt="Engineering technology stack" />
@@ -211,64 +218,32 @@ OBSERVABILITY, SUPPORT & CONTINUOUS EVOLUTION
 
 ---
 
-# 🛡️ Engineering standards
+# 🧬 DeadZone product portfolio
 
-Every product I lead is designed around the same principles:
-
-- 🧱 **Architecture before chaos** — clear boundaries, modular systems, controlled dependencies.
-- 🔁 **Reproducibility before guesswork** — traceable inputs, repeatable builds, documented outputs.
-- ✅ **Validation before release** — quality gates, compatibility checks, integrity controls, rollback thinking.
-- 👁️ **Observability before assumptions** — visible state, meaningful logs, actionable failure information.
-- ⚡ **Automation before repetition** — manual work is converted into reliable engineering workflows.
-- 🤖 **AI with purpose** — AI is used where it creates speed, intelligence, or operational leverage.
-- 🚀 **Delivery with responsibility** — a product is not finished until deployment, support, and iteration are ready.
+- ⚡ **DeadZone Lite** — clean daily-driver builds focused on stability.
+- 🎮 **DeadZone GamingPlus** — performance-focused system profile.
+- 🥷 **DeadZone Ninja** — deeper framework-powered integration.
+- 🧩 **DeadZone Port** — cross-device adaptation and compatibility.
+- 👑 **DeadZone Legend** — advanced and experimental flagship direction.
 
 ---
 
-# 🧭 Leadership philosophy
-
-```yaml
-engineering_leadership:
-  vision: turn ambitious ideas into executable systems
-  architecture: build foundations that survive growth
-  quality: make reliability a process, not a promise
-  automation: remove repetition and reduce human error
-  delivery: ship complete products, not unfinished code
-  ai: use intelligence to multiply engineering capability
-  ownership: remain responsible from idea to production
-```
-
----
-
-# 🌍 What I build
-
-- 🎮 Interactive and game-oriented software systems
-- 📱 Mobile applications and product utilities
-- 🌐 Websites, stores, dashboards, and web platforms
-- 🤖 Android ROMs and low-level platform engineering
-- 🧠 AI-assisted products, agents, and developer tools
-- ⚙️ Bots, automation engines, and operational workflows
-- ☁️ Cloud-deployed systems with databases and release pipelines
-- 🏢 Complete digital products built around real business objectives
-
----
-
-# 🌐 DeadZone network
+# 🌐 Official network
 
 <p align="center">
-  <a href="https://deadzone.web.id/"><img src="https://img.shields.io/badge/🌐_OFFICIAL-deadzone.web.id-2563EB?style=for-the-badge" alt="Website" /></a>
+  <a href="https://deadzone.web.id/"><img src="https://img.shields.io/badge/🌐_OFFICIAL-deadzone.web.id-2563EB?style=for-the-badge" alt="DeadZone website" /></a>
   <a href="https://t.me/xDeadZone"><img src="https://img.shields.io/badge/📢_UPDATES-@xDeadZone-229ED9?style=for-the-badge" alt="Updates" /></a>
-  <a href="https://t.me/DeadZoneDiscussion"><img src="https://img.shields.io/badge/💬_COMMUNITY-DeadZone_Discussion-111827?style=for-the-badge" alt="Community" /></a>
-  <a href="https://t.me/DeadZoneCloud"><img src="https://img.shields.io/badge/☁️_BUILDS-DeadZone_Cloud-0EA5E9?style=for-the-badge" alt="Cloud" /></a>
-  <a href="https://t.me/MohamedMezo1"><img src="https://img.shields.io/badge/📩_CONTACT-@MohamedMezo1-7C3AED?style=for-the-badge" alt="Contact" /></a>
+  <a href="https://t.me/DeadZoneDiscussion"><img src="https://img.shields.io/badge/💬_DISCUSSION-DEADZONE_COMMUNITY-111827?style=for-the-badge" alt="Community" /></a>
+  <a href="https://t.me/DeadZoneCloud"><img src="https://img.shields.io/badge/☁️_BUILDS-DEADZONE_CLOUD-0EA5E9?style=for-the-badge" alt="Cloud" /></a>
+  <a href="https://t.me/MohamedMezo1"><img src="https://img.shields.io/badge/📩_CONTACT-@MOHAMMEDMEZO1-7C3AED?style=for-the-badge" alt="Contact" /></a>
 </p>
 
 ---
 
 <p align="center">
-  <strong>✨ PROGRAMMER SINCE 2008 · ENGINEERING LEADER · GAME DEV · APP DEV · WEB DEV · ANDROID SYSTEMS · AI BUILDER ✨</strong>
+  <strong>✨ PROGRAMMER SINCE 2008 • ENGINEERING LEAD • GAME DEV • APP DEV • WEB DEV • ANDROID SYSTEMS • AI BUILDER ✨</strong>
 </p>
 
 <p align="center">
-  <sub>Architect the vision · Engineer the system · Automate the execution · Govern the release</sub>
+  <sub>ARCHITECT THE PLATFORM · AUTOMATE THE EXECUTION · GOVERN THE QUALITY · SHIP THE PRODUCT</sub>
 </p>
