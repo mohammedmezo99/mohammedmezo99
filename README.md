@@ -44,8 +44,6 @@ Today, I lead **DeadZone** as Founder and Engineering Lead. I do not treat softw
   <img src="./assets/ecosystem.svg" width="100%" alt="Animated MEZO engineering ecosystem" />
 </p>
 
-The system is built around four connected capabilities:
-
 - 🎮 **Products:** games, mobile applications, business tools, and commerce experiences.
 - 📱 **Platforms:** Android systems, websites, APIs, dashboards, and backend services.
 - ⚙️ **Automation:** CI/CD, bots, build systems, cloud workflows, and release operations.
@@ -55,81 +53,152 @@ Everything converges into one outcome: **production delivery**.
 
 ---
 
-# 🏆 Selected engineering work
+# 🏆 Strategic engineering portfolio
 
-<p align="center">
-  <img src="./assets/portfolio.svg" width="100%" alt="Selected engineering work" />
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🧬 DeadZone ROM Platform
-Android systems and ROM engineering ecosystem covering architecture, adaptation, framework work, build delivery, and release governance.  
-**Role:** Founder & Engineering Lead · **Explore:** [DeadZone platform](https://deadzone.web.id/) · [ROM releases](https://t.me/xDeadZone)
+**🧬 DeadZone ROM Platform**  
+A controlled Android engineering ecosystem covering architecture, framework integration, device adaptation, validation, release governance, and platform reliability.
 
-### ⚙️ DeadZone Build Factory
-Automated firmware engineering workflows for extraction, patching, compatibility, validation, packaging, checksums, artifacts, and controlled release.  
-**Explore:** [DeadZone Build](https://github.com/mohammedmezo99/DeadZone-Build) · [Xiaomi Stock Toolbuild](https://github.com/hypermezo4-create/xiaomi-stocktoolbuild)
+**Leadership scope:** Product direction · architecture ownership · release policy · operational standards  
+**Visibility:** Controlled distribution · selected public releases
 
-### 🤖 MEZO AI Systems
-AI agents and connected engineering tools designed to reduce repetitive work, accelerate development, and improve operational decision-making.  
-**Explore:** [MEZO AI](https://github.com/hypermezo4-create/MEZO_Ai)
+</td>
+<td width="50%" valign="top">
 
-### 🛍️ Digital Commerce Engineering
-Product design and engineering for catalogs, orders, dashboards, visual systems, business operations, deployment, and automation.
+**⚙️ DeadZone Build Factory**  
+A private build and release environment for firmware extraction, patch orchestration, compatibility verification, packaging, checksums, artifacts, and governed delivery.
 
-### 🎮 Game Development Lab
-Interactive systems, mechanics, real-time logic, performance, feedback loops, and experience-focused engineering.
+**Leadership scope:** Build architecture · automation strategy · quality gates · delivery controls  
+**Visibility:** Private engineering infrastructure
 
-### 🌐 Web Platforms
-Websites, product surfaces, dashboards, APIs, control panels, backend integration, and production deployment.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🤖 MEZO AI Systems**  
+Connected AI agents and engineering tools designed to reduce repetitive work, accelerate execution, improve decision visibility, and coordinate complex development workflows.
+
+**Leadership scope:** Agent architecture · tool integration · supervised automation · operational intelligence  
+**Visibility:** Private product and engineering systems
+
+</td>
+<td width="50%" valign="top">
+
+**🛍️ Digital Commerce Engineering**  
+Product and systems engineering for catalogs, orders, dashboards, business operations, visual identity, deployment, analytics, and workflow automation.
+
+**Leadership scope:** Product architecture · business systems · delivery operations · continuous optimization  
+**Visibility:** Commercial and controlled-access platforms
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🎮 Game Development Lab**  
+Interactive systems built around real-time logic, mechanics, timing, performance, feedback loops, experience design, and measurable system behavior.
+
+**Leadership scope:** System design · gameplay logic · performance strategy · product execution  
+**Visibility:** Private development portfolio
+
+</td>
+<td width="50%" valign="top">
+
+**🌐 Web Platforms**  
+Production-grade websites, dashboards, APIs, control panels, backend-connected interfaces, deployment systems, and operational products.
+
+**Leadership scope:** Platform architecture · backend integration · security · deployment governance  
+**Visibility:** Public products and private client systems
+
+</td>
+</tr>
+</table>
+
+> **Repository access is intentionally curated. Core products, internal tooling, signing infrastructure, automation logic, and commercial systems remain private by design.**
 
 ---
 
 # 📚 Engineering case studies
 
-## 1. 🧬 DeadZone ROM Engineering
+<table>
+<tr>
+<td valign="top">
+
+**CASE 01 · 🧬 DeadZone ROM Engineering**
 
 **Challenge**  
-Transform Android firmware work from manual modification into a controlled product-delivery process.
+Transform Android firmware work from manual modification into a controlled, repeatable product-delivery process.
 
-**Engineering approach**  
-Source assessment → extraction → platform detection → framework and vendor integration → compatibility validation → packaging → integrity checks → release operations.
+**Engineering response**  
+Source assessment → extraction → platform detection → framework and vendor integration → compatibility validation → packaging → integrity controls → governed release.
 
-**Outcome**  
-A repeatable engineering direction capable of supporting multiple ROM editions, device adaptation, automation, and release governance.
+**Business and engineering outcome**  
+A reusable platform direction capable of supporting multiple ROM editions, controlled device adaptation, automation, quality gates, and long-term release governance.
 
-## 2. 🤖 AI-assisted engineering platform
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-**Challenge**  
-Reduce context switching and repetitive manual work across development, repositories, builds, releases, and operations.
-
-**Engineering approach**  
-Connected AI agents, repository-aware tools, controlled automations, workflow orchestration, and human-supervised execution.
-
-**Outcome**  
-Faster engineering iteration, stronger operational visibility, and a foundation for intelligent development workflows.
-
-## 3. 🛍️ Digital commerce systems
+**CASE 02 · 🤖 AI-Assisted Engineering Platform**
 
 **Challenge**  
-Build a real operating system for commerce rather than a visual storefront alone.
+Reduce context switching and repetitive manual work across development, repositories, builds, deployment, releases, and operations.
 
-**Engineering approach**  
-Product catalog, orders, merchandising, analytics, automation, operational dashboards, visual identity, and production deployment.
+**Engineering response**  
+Connected agents, repository-aware tooling, permission-controlled actions, workflow orchestration, persistent state, and human-supervised execution.
 
-**Outcome**  
-A business-oriented digital platform designed to support daily operations and continuous product improvement.
+**Business and engineering outcome**  
+Faster iteration, stronger visibility, lower operational friction, and a foundation for intelligent engineering workflows without surrendering control.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**CASE 03 · 🛍️ Digital Commerce Systems**
+
+**Challenge**  
+Build an operational commerce platform rather than a visual storefront with disconnected business processes.
+
+**Engineering response**  
+Structured catalogs, order operations, merchandising logic, dashboards, automation, deployment pipelines, analytics, and controlled product presentation.
+
+**Business and engineering outcome**  
+A maintainable digital operating system designed to support daily execution, customer experience, business visibility, and continuous product improvement.
+
+</td>
+</tr>
+</table>
 
 ---
 
 # 🎯 What I deliver
 
-- 🚀 Turn product ideas into production-ready systems.
-- 🏛️ Design architecture that remains understandable as complexity grows.
-- ⚙️ Automate build, validation, deployment, and release operations.
-- 📱 Deliver across Android, applications, web, backend, and cloud layers.
-- 🤖 Integrate AI where it creates measurable engineering leverage.
-- 🛡️ Establish quality, integrity, traceability, and rollback discipline.
-- 📦 Own delivery from planning through post-release support.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+- 🚀 Product ideas converted into production systems
+- 🏛️ Architecture that remains clear as complexity grows
+- ⚙️ Automated build, validation, deployment, and release operations
+- 📱 Delivery across Android, applications, web, backend, and cloud
+
+</td>
+<td width="50%" valign="top">
+
+- 🤖 AI integrated where it creates measurable leverage
+- 🛡️ Quality, integrity, traceability, permissions, and rollback discipline
+- 📦 End-to-end ownership from planning through post-release support
+- 📈 Systems that improve after every failure and iteration
+
+</td>
+</tr>
+</table>
 
 <p align="center">
   <img src="./assets/terminal.svg" width="100%" alt="Animated production terminal" />
@@ -140,57 +209,66 @@ A business-oriented digital platform designed to support daily operations and co
 # 🔬 Engineering operating model
 
 ```text
-VISION & PRODUCT DIRECTION
-           ↓
-REQUIREMENTS & ARCHITECTURE
-           ↓
-ENGINEERING & INTEGRATION
-           ↓
-AUTOMATION & QUALITY GATES
-           ↓
-SECURITY / INTEGRITY / VALIDATION
-           ↓
-DEPLOYMENT & RELEASE GOVERNANCE
-           ↓
-OBSERVABILITY / SUPPORT / ITERATION
+01  VISION & PRODUCT DIRECTION
+                ↓
+02  REQUIREMENTS & ARCHITECTURE
+                ↓
+03  ENGINEERING & INTEGRATION
+                ↓
+04  AUTOMATION & QUALITY GATES
+                ↓
+05  SECURITY / INTEGRITY / VALIDATION
+                ↓
+06  DEPLOYMENT & RELEASE GOVERNANCE
+                ↓
+07  OBSERVABILITY / SUPPORT / ITERATION
 ```
 
 <p align="center">
   <img src="./assets/pipeline.svg" width="100%" alt="Animated engineering delivery pipeline" />
 </p>
 
+> **Operating principle:** every product is managed as a complete delivery system. Architecture, implementation, validation, deployment, observability, and support belong to one continuous engineering lifecycle.
+
 ---
 
 # 🛡️ Engineering principles
 
-| Principle | Operating meaning |
-|---|---|
-| 🏛️ **Architecture before complexity** | Create clear boundaries and ownership before adding more features. |
-| ⚙️ **Automation before repetition** | Repeated manual work becomes a tool, pipeline, or controlled workflow. |
-| ✅ **Evidence before release** | A release requires validation, traceability, and observable results. |
-| 🚀 **Products, not demos** | Engineering is complete only when the result is usable and supportable. |
-| 🤖 **AI as infrastructure** | AI belongs inside workflows where it creates reliable leverage. |
-| 🧭 **Ownership end to end** | Responsibility continues from idea and architecture through production support. |
-| 🔐 **Integrity by design** | Security, signing, checksums, permissions, and rollback are planned early. |
-| 📈 **Improve the system** | Every failure should strengthen the process that allowed it to happen. |
+<table>
+<tr><td><b>🏛️ Architecture before complexity</b></td><td>Define structure, ownership, boundaries, and interfaces before expanding features.</td></tr>
+<tr><td><b>⚙️ Automation before repetition</b></td><td>Repeated manual work becomes a controlled tool, workflow, or pipeline.</td></tr>
+<tr><td><b>✅ Evidence before release</b></td><td>No serious release is complete without validation, traceability, and observable results.</td></tr>
+<tr><td><b>🚀 Products, not demos</b></td><td>Engineering succeeds when the result is usable, maintainable, and supportable.</td></tr>
+<tr><td><b>🤖 AI as infrastructure</b></td><td>AI belongs inside workflows where it creates reliable leverage and operational value.</td></tr>
+<tr><td><b>🧭 Ownership end to end</b></td><td>Responsibility continues from concept and architecture through production support.</td></tr>
+<tr><td><b>🔐 Integrity by design</b></td><td>Security, signing, checksums, access controls, and rollback are planned early.</td></tr>
+<tr><td><b>📈 Improve the system</b></td><td>Every failure must strengthen the process that allowed it to happen.</td></tr>
+</table>
 
 ---
 
-# 🔴 Currently building
+# 🔴 Current execution focus
 
 ```yaml
-currently_building:
-  - DeadZone ROM engineering platform
-  - automated ROM build and release systems
-  - AI-powered software development tools
+active_programs:
+  - DeadZone Android engineering platform
+  - private automated build and release infrastructure
+  - AI-powered engineering and operational tools
   - digital commerce and business platforms
 
-engineering_focus:
+engineering_priorities:
   - platform reliability
-  - intelligent automation
-  - scalable architecture
+  - permission-aware intelligent automation
+  - scalable and reusable architecture
   - release integrity and traceability
   - mobile-first product quality
+  - controlled visibility and private-by-design systems
+
+execution_direction:
+  - stronger delivery systems
+  - cleaner operational workflows
+  - reusable engineering foundations
+  - higher visibility across build and release stages
 ```
 
 ---
@@ -220,11 +298,18 @@ engineering_focus:
 
 # 🧬 DeadZone product portfolio
 
-- ⚡ **DeadZone Lite** — clean daily-driver builds focused on stability.
-- 🎮 **DeadZone GamingPlus** — performance-focused system profile.
-- 🥷 **DeadZone Ninja** — deeper framework-powered integration.
-- 🧩 **DeadZone Port** — cross-device adaptation and compatibility.
-- 👑 **DeadZone Legend** — advanced and experimental flagship direction.
+<table>
+<tr>
+<td align="center"><b>⚡ Lite</b><br/><sub>Stability-first daily driver</sub></td>
+<td align="center"><b>🎮 GamingPlus</b><br/><sub>Performance-oriented system profile</sub></td>
+<td align="center"><b>🥷 Ninja</b><br/><sub>Framework-powered integration</sub></td>
+</tr>
+<tr>
+<td align="center"><b>🧩 Port</b><br/><sub>Cross-device adaptation</sub></td>
+<td align="center"><b>👑 Legend</b><br/><sub>Advanced flagship direction</sub></td>
+<td align="center"><b>🔒 Private Lab</b><br/><sub>Controlled research and tooling</sub></td>
+</tr>
+</table>
 
 ---
 
