@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260" viewBox="0 0 1400 260" role="img" aria-labelledby="t d">
+<title id="t">DeadZone animated ROM build pipeline</title>
+<desc id="d">Animated flow from source and verification through patching, signing and release.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#10172a"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .path{stroke-dasharray:18 12;animation:move 1.6s linear infinite}
+    .node{animation:pulse 2.4s ease-in-out infinite}
+    .n2{animation-delay:.3s}.n3{animation-delay:.6s}.n4{animation-delay:.9s}.n5{animation-delay:1.2s}.n6{animation-delay:1.5s}
+    @keyframes move{to{stroke-dashoffset:-60}}
+    @keyframes pulse{0%,100%{opacity:.68;transform:translateY(0)}50%{opacity:1;transform:translateY(-5px)}}
+    @media(prefers-reduced-motion:reduce){.path,.node{animation:none}}
+  </style>
+</defs>
+<rect width="1400" height="260" rx="28" fill="url(#bg)"/>
+<text x="700" y="45" text-anchor="middle" fill="#f8fafc" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="900" letter-spacing="3">DEADZONE ROM DELIVERY PIPELINE</text>
+<path class="path" d="M125 135H1275" fill="none" stroke="url(#line)" stroke-width="5" filter="url(#g)"/>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+  <g class="node" transform="translate(125 135)"><circle r="45" fill="#07233b" stroke="#22d3ee" stroke-width="3"/><text y="6" fill="#cffafe" font-size="16" font-weight="900">SOURCE</text><text y="75" fill="#94a3b8" font-size="13">OTA / Images</text></g>
+  <g class="node n2" transform="translate(355 135)"><circle r="45" fill="#0b2551" stroke="#3b82f6" stroke-width="3"/><text y="6" fill="#dbeafe" font-size="16" font-weight="900">VERIFY</text><text y="75" fill="#94a3b8" font-size="13">Hash / Metadata</text></g>
+  <g class="node n3" transform="translate(585 135)"><circle r="45" fill="#142252" stroke="#6366f1" stroke-width="3"/><text y="6" fill="#e0e7ff" font-size="16" font-weight="900">PATCH</text><text y="75" fill="#94a3b8" font-size="13">Framework / Mods</text></g>
+  <g class="node n4" transform="translate(815 135)"><circle r="45" fill="#26184f" stroke="#8b5cf6" stroke-width="3"/><text y="6" fill="#ede9fe" font-size="16" font-weight="900">ADAPT</text><text y="75" fill="#94a3b8" font-size="13">Vendor / ODM</text></g>
+  <g class="node n5" transform="translate(1045 135)"><circle r="45" fill="#3a1648" stroke="#d946ef" stroke-width="3"/><text y="6" fill="#fae8ff" font-size="16" font-weight="900">SIGN</text><text y="75" fill="#94a3b8" font-size="13">AVB / Checksums</text></g>
+  <g class="node n6" transform="translate(1275 135)"><circle r="45" fill="#3a1027" stroke="#ec4899" stroke-width="3"/><text y="6" fill="#fce7f3" font-size="16" font-weight="900">SHIP</text><text y="75" fill="#94a3b8" font-size="13">Cloud / Telegram</text></g>
+</g>
+<rect x="1" y="1" width="1398" height="258" rx="27" fill="none" stroke="#334155" stroke-width="2"/>
+</svg>
