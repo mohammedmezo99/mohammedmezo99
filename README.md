@@ -3,21 +3,14 @@
 </p>
 
 <p align="center">
+  <img src="./assets/executive-command-center.svg" width="100%" alt="Mohammed MEZO executive engineering command center" />
+</p>
+
+<p align="center">
   <a href="https://deadzone.web.id/"><img src="https://img.shields.io/badge/🌐_DEADZONE-OFFICIAL_PLATFORM-2563EB?style=for-the-badge" alt="DeadZone platform" /></a>
   <a href="https://t.me/xDeadZone"><img src="https://img.shields.io/badge/🚀_RELEASES-TELEGRAM-229ED9?style=for-the-badge" alt="Releases" /></a>
   <a href="https://t.me/DeadZoneDiscussion"><img src="https://img.shields.io/badge/🧠_COMMUNITY-ENGINEERING-111827?style=for-the-badge" alt="Community" /></a>
   <a href="https://t.me/MohamedMezo1"><img src="https://img.shields.io/badge/📩_CONTACT-MOHAMMED_MEZO-7C3AED?style=for-the-badge" alt="Contact" /></a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=24&duration=2100&pause=650&color=67E8F9&center=true&vCenter=true&repeat=true&width=1100&height=68&lines=Programmer+since+2008;Founder+%26+Engineering+Lead+of+DeadZone;Game+Developer+%7C+Application+Developer;Web+Platform+Developer+%7C+Android+Systems+Engineer;AI+Builder+%7C+Automation+Architect;I+build+the+systems+that+build+the+products" alt="Animated professional titles" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/👑_FOUNDER-ENGINEERING_LEAD-0F172A?style=flat-square" alt="Founder" />
-  <img src="https://img.shields.io/badge/🕰️_PROGRAMMING_SINCE-2008-2563EB?style=flat-square" alt="Since 2008" />
-  <img src="https://img.shields.io/badge/🧩_DOMAIN-MULTI_PLATFORM_ENGINEERING-7C3AED?style=flat-square" alt="Multi platform" />
-  <img src="https://img.shields.io/badge/🤖_DIRECTION-AI_×_AUTOMATION-0EA5E9?style=flat-square" alt="AI automation" />
 </p>
 
 ---
