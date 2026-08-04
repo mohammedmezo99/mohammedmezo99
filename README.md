@@ -1,147 +1,88 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Mohammed MEZO — DeadZone Android Systems" />
+  <img src="./assets/hero.svg" width="100%" alt="Mohammed MEZO — Founder and Engineering Lead of DeadZone ROM" />
 </p>
 
 <p align="center">
   <a href="https://deadzone.web.id/">
-    <img src="https://img.shields.io/badge/DEADZONE-OFFICIAL_SITE-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="DeadZone website" />
+    <img src="https://img.shields.io/badge/DEADZONE-OFFICIAL_PLATFORM-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="DeadZone official platform" />
   </a>
   <a href="https://t.me/xDeadZone">
     <img src="https://img.shields.io/badge/ROM_RELEASES-TELEGRAM-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone ROM releases" />
   </a>
   <a href="https://t.me/DeadZoneDiscussion">
-    <img src="https://img.shields.io/badge/COMMUNITY-DISCUSSION-111827?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone discussion" />
+    <img src="https://img.shields.io/badge/ENGINEERING_COMMUNITY-111827?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone engineering community" />
   </a>
-  <a href="https://t.me/DeadZoneCloud">
-    <img src="https://img.shields.io/badge/CLOUD-BUILDS-0EA5E9?style=for-the-badge&logo=icloud&logoColor=white" alt="DeadZone Cloud builds" />
+  <a href="https://t.me/MohamedMezo1">
+    <img src="https://img.shields.io/badge/DIRECT_CONTACT-7C3AED?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Mohammed MEZO" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mohammedmezo99">
-    <img src="https://komarev.com/ghpvc/?username=mohammedmezo99&label=PROFILE+VIEWS&color=2563eb&style=flat-square" alt="Profile views" />
-  </a>
-  <a href="https://github.com/mohammedmezo99?tab=followers">
-    <img src="https://img.shields.io/github/followers/mohammedmezo99?label=FOLLOWERS&style=flat-square&color=0ea5e9" alt="Followers" />
-  </a>
-  <a href="https://github.com/hypermezo4-create">
-    <img src="https://img.shields.io/badge/OPEN_SOURCE-ROM_LAB-8B5CF6?style=flat-square&logo=github" alt="Open-source ROM lab" />
-  </a>
-  <img src="https://img.shields.io/badge/STATUS-BUILDING_ANDROID-10B981?style=flat-square&logo=android&logoColor=white" alt="Building Android" />
+  <img src="https://img.shields.io/badge/ROLE-FOUNDER_&_ENGINEERING_LEAD-0F172A?style=flat-square" alt="Founder and Engineering Lead" />
+  <img src="https://img.shields.io/badge/DOMAIN-ANDROID_PLATFORM_ENGINEERING-2563EB?style=flat-square&logo=android&logoColor=white" alt="Android platform engineering" />
+  <img src="https://img.shields.io/badge/FOCUS-ROM_ARCHITECTURE_&_AUTOMATION-7C3AED?style=flat-square" alt="ROM architecture and automation" />
 </p>
+
+---
+
+# Executive profile
+
+I am **Mohammed MEZO**, Founder and Engineering Lead of **DeadZone ROM**. I lead the technical direction and end-to-end delivery of Android platform products—from source evaluation and architecture decisions to framework integration, device adaptation, automated validation, release governance, and production support.
+
+My work is centered on building **reliable engineering systems**, not isolated modifications. I design the architecture, automation, quality controls, and operational workflows required to transform Android firmware into maintainable products that can be built, verified, distributed, and supported consistently.
+
+> **I do not only build ROMs. I build the engineering platform that produces them.**
+
+## Leadership scope
+
+- **Technical strategy:** define the Android platform roadmap, product direction, priorities, and delivery standards.
+- **Architecture ownership:** design modular ROM workflows across framework, SystemUI, services, vendor, ODM, boot, recovery, and packaging layers.
+- **Delivery management:** coordinate build pipelines, release gates, artifact publishing, changelogs, and distribution operations.
+- **Quality governance:** establish verification, compatibility, integrity, rollback, and release-readiness controls.
+- **Automation leadership:** replace repetitive manual work with reproducible tooling, CI/CD, bots, and cloud workflows.
+- **Operational responsibility:** manage release communication, build visibility, issue triage, and post-release support.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=23&duration=2400&pause=650&color=67E8F9&center=true&vCenter=true&repeat=true&width=1000&height=65&lines=Engineering+Android+beyond+the+app+layer;AOSP+%E2%80%A2+HyperOS+%E2%80%A2+OnePlus+%E2%80%A2+ODM+Porting;Framework+Patching+%E2%80%A2+ROM+Automation+%E2%80%A2+Release+Engineering;Founder+of+DeadZone+ROM" alt="Animated introduction" />
+  <img src="./assets/terminal.svg" width="100%" alt="Animated DeadZone production terminal" />
 </p>
 
-## `whoami`
+---
 
-```yaml
-name: Mohammed MEZO
-role: Android Systems Engineer
-project: DeadZone ROM
-specialization:
-  - AOSP and custom ROM engineering
-  - Xiaomi / HyperOS modification
-  - OnePlus and ODM porting
-  - Framework, SystemUI and services patching
-  - Recovery, vendor, boot and image workflows
-  - Automated ROM build and release pipelines
-mission: Engineer the system. Automate the pipeline. Ship with confidence.
+# DeadZone engineering organization
+
+## Android platform engineering
+
+I work below the application layer across **AOSP, HyperOS, framework, SystemUI, Android services, vendor, ODM, boot images, recovery, AVB-aware packaging, and device compatibility**.
+
+The objective is not simply to make a build boot. The objective is to deliver a platform that is structured, testable, repeatable, and supportable.
+
+## Build and release engineering
+
+DeadZone delivery is designed around controlled, reproducible stages:
+
+```text
+SOURCE ASSESSMENT
+      ↓
+ARCHITECTURE & COMPATIBILITY PLAN
+      ↓
+EXTRACTION & PLATFORM DETECTION
+      ↓
+FRAMEWORK / SYSTEM / VENDOR INTEGRATION
+      ↓
+AUTOMATED VALIDATION & QUALITY GATES
+      ↓
+PACKAGING / SIGNING / CHECKSUMS
+      ↓
+CONTROLLED RELEASE & OBSERVABILITY
 ```
 
-<p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Animated DeadZone build terminal" />
-</p>
+## Device enablement
 
----
+Cross-device delivery requires more than file replacement. My work covers platform differences, partition layouts, vendor and ODM adaptation, framework compatibility, boot behavior, recovery integration, camera components, performance profiles, and device-specific release policies.
 
-# ⚡ ROM Project Command Center
+## Engineering operations
 
-> Every card below is clickable. These are the public ROM, framework, recovery, vendor and automation projects connected to my Android work.
-
-## ROM build engines
-
-<p align="center">
-  <a href="https://github.com/hypermezo4-create/xiaomi-stocktoolbuild">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=xiaomi-stocktoolbuild&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="Xiaomi Stock Toolbuild" />
-  </a>
-  <a href="https://github.com/mohammedmezo99/DeadZone-Build">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=mohammedmezo99&repo=DeadZone-Build&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="DeadZone Build" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/hypermezo4-create/Action-OFRP-Builder">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=Action-OFRP-Builder&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="Action OFRP Builder" />
-  </a>
-  <a href="https://github.com/hypermezo4-create/qcom-perf-parser">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=qcom-perf-parser&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="Qualcomm Performance Parser" />
-  </a>
-</p>
-
-## Framework and system modification
-
-<p align="center">
-  <a href="https://github.com/hypermezo4-create/FrameworkPatcher">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=FrameworkPatcher&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="FrameworkPatcher" />
-  </a>
-  <a href="https://github.com/hypermezo4-create/packages_apps_GameBar-OLD">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=packages_apps_GameBar-OLD&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="Android GameBar" />
-  </a>
-</p>
-
-## Devices, recovery and camera integration
-
-<p align="center">
-  <a href="https://github.com/hypermezo4-create/ofox_device_xiaomi_peridot">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=ofox_device_xiaomi_peridot&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="OrangeFox device tree for Xiaomi Peridot" />
-  </a>
-  <a href="https://github.com/hypermezo4-create/device_xiaomi_zircon-TWRP">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=device_xiaomi_zircon-TWRP&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="TWRP device tree for Xiaomi Zircon" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/hypermezo4-create/vendor-xiaomi-peridot-leica">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=vendor-xiaomi-peridot-leica&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="Leica camera vendor for Xiaomi Peridot" />
-  </a>
-  <a href="https://github.com/hypermezo4-create/vendor_xiaomi_peridot-camera">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=hypermezo4-create&repo=vendor_xiaomi_peridot-camera&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&icon_color=a78bfa&bg_color=00000000" alt="Xiaomi Peridot camera vendor" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/hypermezo4-create?tab=repositories&q=android&type=&language=&sort=">
-    <img src="https://img.shields.io/badge/EXPLORE_ALL-ANDROID_REPOSITORIES-7C3AED?style=for-the-badge&logo=android&logoColor=white" alt="Explore all Android repositories" />
-  </a>
-  <a href="https://github.com/hypermezo4-create?tab=repositories">
-    <img src="https://img.shields.io/badge/OPEN_SOURCE_LAB-@hypermezo4--create-111827?style=for-the-badge&logo=github&logoColor=white" alt="Open-source lab" />
-  </a>
-</p>
-
----
-
-# 🧬 DeadZone ROM Platform
-
-<table>
-<tr>
-<td width="20%" align="center"><b>⚡ Lite</b><br/><sub>Clean daily-driver builds</sub></td>
-<td width="20%" align="center"><b>🎮 GamingPlus</b><br/><sub>Performance-focused profile</sub></td>
-<td width="20%" align="center"><b>🥷 Ninja</b><br/><sub>Framework-powered edition</sub></td>
-<td width="20%" align="center"><b>🧩 Port</b><br/><sub>Cross-device adaptation</sub></td>
-<td width="20%" align="center"><b>👑 Legend</b><br/><sub>Experimental flagship line</sub></td>
-</tr>
-</table>
-
-<p align="center">
-  <a href="https://t.me/xDeadZone">
-    <img src="https://img.shields.io/badge/VIEW_ROM_RELEASES-DeadZone_Updates-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="View ROM releases" />
-  </a>
-  <a href="https://t.me/DeadZoneDiscussion/3961">
-    <img src="https://img.shields.io/badge/SUPPORTED_DEVICES-OPEN_LIST-2563EB?style=for-the-badge&logo=android&logoColor=white" alt="Supported devices" />
-  </a>
-</p>
+I build the supporting systems around the ROM itself: GitHub Actions pipelines, Telegram control workflows, build state management, artifact delivery, database-backed automation, cloud services, release notifications, and operational safeguards.
 
 <p align="center">
   <img src="./assets/pipeline.svg" width="100%" alt="Animated DeadZone ROM delivery pipeline" />
@@ -149,96 +90,103 @@ mission: Engineer the system. Automate the pipeline. Ship with confidence.
 
 ---
 
-# 🛠 Engineering matrix
+# DeadZone product portfolio
 
-<table>
-<tr>
-<td width="25%" valign="top">
+### DeadZone Lite
+A clean daily-driver edition focused on stability, controlled optimization, and dependable release behavior.
 
-### Android internals
-`AOSP` `HyperOS` `SystemUI`  
-`Framework` `Services` `Smali`  
-`Vendor` `ODM` `Boot` `Recovery`
+### DeadZone GamingPlus
+A performance-oriented edition with a gaming-focused configuration and specialized system tuning.
 
-</td>
-<td width="25%" valign="top">
+### DeadZone Ninja
+A framework-powered edition built around deeper system integration and modular feature delivery.
 
-### Build systems
-`GitHub Actions` `Docker`  
-`Bash` `Python` `Linux`  
-`Build Matrix` `Artifacts`
+### DeadZone Port
+A cross-device engineering line focused on adaptation, vendor compatibility, and platform migration.
 
-</td>
-<td width="25%" valign="top">
+### DeadZone Legend
+An experimental flagship line used for advanced integration, validation, and next-generation platform work.
 
-### Languages
-`Kotlin` `Java` `C` `C++`  
-`Python` `Bash`  
-`JavaScript` `TypeScript`
+---
 
-</td>
-<td width="25%" valign="top">
+# Engineering standards
 
-### Delivery
-`Telegram APIs` `Cloudflare`  
-`Fly.io` `Vercel`  
-`PostgreSQL` `Checksums`
+Every serious release should satisfy the same operational principles:
 
-</td>
-</tr>
-</table>
+- **Reproducibility:** the same inputs and configuration should produce a traceable result.
+- **Integrity:** artifacts, checksums, signing state, and package structure must be verifiable.
+- **Compatibility:** framework, vendor, ODM, boot, recovery, and device behavior must be evaluated together.
+- **Maintainability:** modifications should be modular, documented, and replaceable without rebuilding the entire workflow.
+- **Observability:** build stages, failures, release state, and delivery status should be visible.
+- **Release discipline:** no build is considered complete until validation, packaging, documentation, and distribution are complete.
+
+```yaml
+release_policy:
+  source_verified: true
+  compatibility_reviewed: true
+  patches_traceable: true
+  automated_checks_passed: true
+  artifacts_hashed: true
+  release_notes_prepared: true
+  rollback_path_defined: true
+```
+
+---
+
+# Technical capabilities
+
+**Android internals**  
+`AOSP` `HyperOS` `SystemUI` `Framework` `Services` `Smali` `Vendor` `ODM` `Boot` `Recovery`
+
+**Build and automation**  
+`GitHub Actions` `Docker` `Bash` `Python` `Linux` `Build Matrices` `Artifact Pipelines`
+
+**Languages**  
+`Kotlin` `Java` `C` `C++` `Python` `Bash` `JavaScript` `TypeScript`
+
+**Platform operations**  
+`Telegram APIs` `Cloudflare` `Fly.io` `Vercel` `PostgreSQL` `Checksums` `Release Automation`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,c,cpp,python,bash,linux,git,github,githubactions,docker,cloudflare,ts,js,nextjs,react,nodejs,tailwind,postgres,vscode&perline=11" alt="Technology stack" />
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,c,cpp,python,bash,linux,git,github,githubactions,docker,cloudflare,ts,js,nextjs,react,nodejs,tailwind,postgres,vscode&perline=11" alt="Engineering technology stack" />
 </p>
 
 ---
 
-# 📊 Open-source telemetry
+# Current engineering focus
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=hypermezo4-create&show_icons=true&rank_icon=github&theme=transparent&hide_border=true&title_color=67e8f9&icon_color=a78bfa&text_color=cbd5e1&bg_color=00000000" alt="GitHub stats" />
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=hypermezo4-create&theme=transparent&hide_border=true&stroke=334155&ring=8b5cf6&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=cbd5e1&dates=94a3b8" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hypermezo4-create&layout=compact&langs_count=10&theme=transparent&hide_border=true&title_color=67e8f9&text_color=cbd5e1&bg_color=00000000" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=hypermezo4-create&bg_color=00000000&color=67e8f9&line=8b5cf6&point=ffffff&area=true&area_color=2563eb&hide_border=true" alt="Contribution graph" />
-</p>
-
-## Contribution stream
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mohammedmezo99/mohammedmezo99/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake" />
-</p>
+- Unifying DeadZone variants around a controlled platform architecture.
+- Increasing build reproducibility and reducing manual release operations.
+- Expanding framework patching through modular, auditable packages.
+- Strengthening integrity checks, metadata validation, and release traceability.
+- Improving device onboarding, compatibility policies, and platform reuse.
+- Building a central control layer for builds, state, artifacts, and release communication.
 
 ---
 
-# 🌐 DeadZone network
+# Official DeadZone channels
 
 <p align="center">
   <a href="https://deadzone.web.id/">
-    <img src="https://img.shields.io/badge/OFFICIAL_PLATFORM-deadzone.web.id-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="DeadZone website" />
+    <img src="https://img.shields.io/badge/OFFICIAL_WEBSITE-deadzone.web.id-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="DeadZone website" />
   </a>
   <a href="https://t.me/xDeadZone">
-    <img src="https://img.shields.io/badge/UPDATES-@xDeadZone-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone updates" />
+    <img src="https://img.shields.io/badge/RELEASE_UPDATES-@xDeadZone-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone updates" />
   </a>
   <a href="https://t.me/DeadZoneDiscussion">
-    <img src="https://img.shields.io/badge/DISCUSSION-DeadZone_Community-111827?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone community" />
+    <img src="https://img.shields.io/badge/COMMUNITY-DeadZone_Discussion-111827?style=for-the-badge&logo=telegram&logoColor=white" alt="DeadZone discussion" />
   </a>
   <a href="https://t.me/DeadZoneCloud">
-    <img src="https://img.shields.io/badge/BUILDS-DeadZone_Cloud-0EA5E9?style=for-the-badge&logo=icloud&logoColor=white" alt="DeadZone Cloud" />
-  </a>
-  <a href="https://t.me/MohamedMezo1">
-    <img src="https://img.shields.io/badge/CONTACT-@MohamedMezo1-7C3AED?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Mohammed MEZO" />
+    <img src="https://img.shields.io/badge/BUILD_ARTIFACTS-DeadZone_Cloud-0EA5E9?style=for-the-badge&logo=icloud&logoColor=white" alt="DeadZone Cloud" />
   </a>
 </p>
 
 <br />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=18&duration=2600&pause=800&color=A78BFA&center=true&vCenter=true&repeat=true&width=900&height=45&lines=BUILD+CLEAN.;PORT+SMART.;VERIFY+EVERYTHING.;RELEASE+WITH+CONFIDENCE." alt="DeadZone engineering motto" />
+  <strong>ARCHITECT THE PLATFORM · AUTOMATE THE DELIVERY · GOVERN THE RELEASE</strong>
+</p>
+
+<p align="center">
+  <sub>DeadZone ROM Engineering · Mohammed MEZO</sub>
 </p>
