@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="t d">
+<title id="t">Mohammed MEZO engineering journey</title><desc id="d">Animated timeline from programming since 2008 to engineering leadership across games, applications, web, Android, automation and AI.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".5" stop-color="#07182f"/><stop offset="1" stop-color="#160b2f"/></linearGradient>
+<linearGradient id="a"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+<filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>.flow{stroke-dasharray:18 12;animation:f 2.2s linear infinite}.n{animation:p 2.4s ease-in-out infinite}.n2{animation:p 2.4s .35s ease-in-out infinite}.n3{animation:p 2.4s .7s ease-in-out infinite}.n4{animation:p 2.4s 1.05s ease-in-out infinite}.n5{animation:p 2.4s 1.4s ease-in-out infinite}.n6{animation:p 2.4s 1.75s ease-in-out infinite}@keyframes f{to{stroke-dashoffset:-60}}@keyframes p{0%,100%{opacity:.55}50%{opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+</defs>
+<rect width="1400" height="360" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1398" height="358" rx="27" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="700" y="48" text-anchor="middle" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="900" letter-spacing="3">ENGINEERING JOURNEY — 2008 → TODAY</text>
+<path class="flow" d="M100 190 H1300" fill="none" stroke="url(#a)" stroke-width="5" filter="url(#g)"/>
+<g font-family="Arial" text-anchor="middle">
+<g class="n"><circle cx="130" cy="190" r="23" fill="#0f172a" stroke="#22d3ee" stroke-width="4"/><text x="130" y="197" fill="#fff" font-size="18" font-weight="900">08</text><text x="130" y="245" fill="#67e8f9" font-size="17" font-weight="900">PROGRAMMING</text><text x="130" y="270" fill="#94a3b8" font-size="14">Foundation since 2008</text></g>
+<g class="n2"><circle cx="360" cy="190" r="23" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/><text x="360" y="197" fill="#fff" font-size="19">🎮</text><text x="360" y="245" fill="#7dd3fc" font-size="17" font-weight="900">GAMES</text><text x="360" y="270" fill="#94a3b8" font-size="14">Logic • mechanics • performance</text></g>
+<g class="n3"><circle cx="590" cy="190" r="23" fill="#0f172a" stroke="#3b82f6" stroke-width="4"/><text x="590" y="197" fill="#fff" font-size="19">📱</text><text x="590" y="245" fill="#93c5fd" font-size="17" font-weight="900">APPLICATIONS</text><text x="590" y="270" fill="#94a3b8" font-size="14">Products • tools • interfaces</text></g>
+<g class="n4"><circle cx="820" cy="190" r="23" fill="#0f172a" stroke="#6366f1" stroke-width="4"/><text x="820" y="197" fill="#fff" font-size="19">🌐</text><text x="820" y="245" fill="#c4b5fd" font-size="17" font-weight="900">WEB PLATFORMS</text><text x="820" y="270" fill="#94a3b8" font-size="14">Commerce • dashboards • backend</text></g>
+<g class="n5"><circle cx="1050" cy="190" r="23" fill="#0f172a" stroke="#8b5cf6" stroke-width="4"/><text x="1050" y="197" fill="#fff" font-size="19">🤖</text><text x="1050" y="245" fill="#d8b4fe" font-size="17" font-weight="900">SYSTEMS & AI</text><text x="1050" y="270" fill="#94a3b8" font-size="14">Android • automation • agents</text></g>
+<g class="n6"><circle cx="1280" cy="190" r="28" fill="#111827" stroke="#ec4899" stroke-width="4" filter="url(#g)"/><text x="1280" y="197" fill="#fff" font-size="20">👑</text><text x="1280" y="245" fill="#f0abfc" font-size="17" font-weight="900">ENGINEERING LEAD</text><text x="1280" y="270" fill="#94a3b8" font-size="14">Architecture • delivery • governance</text></g>
+</g>
+</svg>
