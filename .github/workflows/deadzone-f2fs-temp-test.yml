@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  inspect:
+  smoke:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -21,20 +21,14 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y f2fs-tools android-sdk-platform-tools
 
-      - name: Inspect installed F2FS tools
+      - name: Create and validate F2FS image
         shell: bash
         run: |
           set -Eeuo pipefail
-          uname -a
           export PATH="/usr/lib/android-sdk/platform-tools:$PATH"
-          for tool in mkfs.f2fs make_f2fs sload.f2fs sload_f2fs dump.f2fs fsck.f2fs; do
-            if command -v "$tool" >/dev/null 2>&1; then
-              echo "$tool=$(command -v "$tool")"
-              "$tool" -V || true
-            else
-              echo "$tool=missing"
-            fi
-          done
-          echo '--- package files matching f2fs ---'
-          dpkg -L f2fs-tools | grep -E '/(mkfs|fsck|dump|sload).*f2fs' || true
-          dpkg -L android-sdk-platform-tools | grep -E 'f2fs|make_f2fs|sload_f2fs' || true
+          image=/tmp/deadzone-f2fs-smoke.img
+          truncate -s 134217728 "$image"
+          make_f2fs -g android -l deadzone_test "$image"
+          fsck.f2fs --dry-run "$image"
+          file "$image"
+          echo 'DeadZone F2FS image smoke test passed'
