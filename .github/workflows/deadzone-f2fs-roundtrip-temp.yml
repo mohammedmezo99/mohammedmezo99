@@ -63,15 +63,12 @@ jobs:
           set +e
           /usr/sbin/sload.f2fs -C /tmp/fs_config -f "$root" -s /tmp/file_contexts -t /system "$image"
           sload_rc=$?
-          fsck.f2fs --dry-run "$image" >/dev/null
+          fsck_output="$(fsck.f2fs --dry-run "$image" 2>&1)"
           fsck_rc=$?
-          feature_output="$(fsck.f2fs -l "$image" 2>&1)"
-          feature_rc=$?
           set -e
           [[ "$sload_rc" -eq 0 || "$sload_rc" -eq 1 ]]
           [[ "$fsck_rc" -eq 0 || "$fsck_rc" -eq 1 ]]
-          [[ "$feature_rc" -eq 0 || "$feature_rc" -eq 1 ]]
-          grep 'superblock features' <<< "$feature_output"
+          grep 'superblock features' <<< "$fsck_output"
           /tmp/dump.f2fs -r -f -P -L -o "$output" "$image"
           test "$(cat "$output/etc/probe.txt")" = 'deadzone-f2fs-roundtrip'
           test -L "$output/bin/probe_link"
