@@ -61,7 +61,7 @@ jobs:
           truncate -s 134217728 "$image"
           make_f2fs -g android -l system "$image" >/dev/null
           set +e
-          sload_f2fs -C /tmp/fs_config -f "$root" -s /tmp/file_contexts -t /system "$image"
+          /usr/sbin/sload.f2fs -C /tmp/fs_config -f "$root" -s /tmp/file_contexts -t /system "$image"
           rc=$?
           set -e
           [[ "$rc" -eq 0 || "$rc" -eq 1 ]]
