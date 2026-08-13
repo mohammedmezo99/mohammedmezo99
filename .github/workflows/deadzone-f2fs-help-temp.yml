@@ -1,0 +1,33 @@
+name: Temporary F2FS CLI Probe
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/deadzone-f2fs-help-temp.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Install F2FS tools
+        run: |
+          set -Eeuo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y f2fs-tools android-sdk-platform-tools
+      - name: Print supported CLI options
+        run: |
+          set -Eeuo pipefail
+          export PATH="/usr/lib/android-sdk/platform-tools:$PATH"
+          echo '=== dump.f2fs ==='
+          dump.f2fs -h 2>&1 || true
+          echo '=== sload_f2fs ==='
+          sload_f2fs -h 2>&1 || true
+          echo '=== make_f2fs ==='
+          make_f2fs -h 2>&1 || true
+          echo '=== fsck.f2fs ==='
+          fsck.f2fs -h 2>&1 || true
