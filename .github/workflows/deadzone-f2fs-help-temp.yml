@@ -24,7 +24,7 @@ jobs:
           set -Eeuo pipefail
           git init /tmp/f2fs-tools
           git -C /tmp/f2fs-tools remote add origin https://android.googlesource.com/platform/external/f2fs-tools
-          git -C /tmp/f2fs-tools fetch --depth 1 origin c1a97862b05d8a736ad8719939395c61bd71c982
+          git -C /tmp/f2fs-tools fetch --depth 1 origin a9066a4e23ec95265941e69eed12a2c1306d1527
           git -C /tmp/f2fs-tools checkout --detach FETCH_HEAD
           cd /tmp/f2fs-tools
           ./autogen.sh >/dev/null
@@ -36,6 +36,7 @@ jobs:
           grep -q -- '-r' <<< "$usage"
           grep -q -- '-o' <<< "$usage"
           grep -q -- '-P' <<< "$usage"
+          grep -q -- '-L' <<< "$usage"
       - name: Verify recursive dump flags
         run: |
           set -Eeuo pipefail
@@ -44,6 +45,6 @@ jobs:
           truncate -s 134217728 "$image"
           mkfs.f2fs -f -g android -l test "$image"
           mkdir -p "$output"
-          sudo /tmp/dump.f2fs -r -f -P -o "$output" "$image"
+          sudo /tmp/dump.f2fs -r -f -P -L -o "$output" "$image"
           test -d "$output"
           echo 'recursive-dump-f2fs=passed'
