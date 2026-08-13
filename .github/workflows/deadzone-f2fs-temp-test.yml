@@ -12,14 +12,22 @@ permissions:
 jobs:
   inspect:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Inspect F2FS tools
+      - name: Install Ubuntu F2FS packages
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y f2fs-tools android-sdk-platform-tools
+
+      - name: Inspect installed F2FS tools
         shell: bash
         run: |
           set -Eeuo pipefail
           uname -a
-          for tool in mkfs.f2fs make_f2fs sload_f2fs dump.f2fs fsck.f2fs; do
+          export PATH="/usr/lib/android-sdk/platform-tools:$PATH"
+          for tool in mkfs.f2fs make_f2fs sload.f2fs sload_f2fs dump.f2fs fsck.f2fs; do
             if command -v "$tool" >/dev/null 2>&1; then
               echo "$tool=$(command -v "$tool")"
               "$tool" -V || true
@@ -27,3 +35,6 @@ jobs:
               echo "$tool=missing"
             fi
           done
+          echo '--- package files matching f2fs ---'
+          dpkg -L f2fs-tools | grep -E '/(mkfs|fsck|dump|sload).*f2fs' || true
+          dpkg -L android-sdk-platform-tools | grep -E 'f2fs|make_f2fs|sload_f2fs' || true
