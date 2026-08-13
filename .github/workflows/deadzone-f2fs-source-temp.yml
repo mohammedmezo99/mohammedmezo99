@@ -30,6 +30,8 @@ jobs:
           ./autogen.sh >/dev/null
           ./configure >/dev/null
           make -j"$(nproc)" >/dev/null
+          cp ./fsck/.libs/fsck.f2fs /tmp/dump.f2fs
+          chmod 0755 /tmp/dump.f2fs
       - name: Verify SELinux metadata survives dump
         run: |
           set -Eeuo pipefail
@@ -48,7 +50,7 @@ jobs:
           truncate -s 384M /tmp/stage.ext4
           mkfs.ext4 -q -F /tmp/stage.ext4
           sudo mount -o loop /tmp/stage.ext4 /tmp/output
-          sudo env LD_LIBRARY_PATH=/tmp/f2fs-tools/lib/.libs /tmp/f2fs-tools/fsck/.libs/fsck.f2fs -r -f -P -L -o /tmp/output /tmp/system.img
+          sudo env LD_LIBRARY_PATH=/tmp/f2fs-tools/lib/.libs /tmp/dump.f2fs -r -f -P -L -o /tmp/output /tmp/system.img
           sudo getfattr -n security.selinux --only-values /tmp/output/etc/probe.txt | grep -q 'u:object_r:system_file:s0'
           sudo umount /tmp/output
           echo 'f2fs-selinux-metadata=passed'
