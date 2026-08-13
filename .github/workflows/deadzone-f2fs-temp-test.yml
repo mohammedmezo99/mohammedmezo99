@@ -1,0 +1,29 @@
+name: Temporary F2FS Capability Test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/deadzone-f2fs-temp-test.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Inspect F2FS tools
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          uname -a
+          for tool in mkfs.f2fs make_f2fs sload_f2fs dump.f2fs fsck.f2fs; do
+            if command -v "$tool" >/dev/null 2>&1; then
+              echo "$tool=$(command -v "$tool")"
+              "$tool" -V || true
+            else
+              echo "$tool=missing"
+            fi
+          done
