@@ -12,14 +12,33 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Check F2FS kernel support
+      - name: Install build dependencies
         run: |
           set -Eeuo pipefail
-          if grep -qw f2fs /proc/filesystems; then
-            echo 'f2fs-kernel-support=present'
-          else
-            echo 'f2fs-kernel-support=missing'
-            exit 1
-          fi
+          sudo apt-get update -y
+          sudo apt-get install -y f2fs-tools autoconf automake libtool pkg-config uuid-dev libselinux1-dev
+      - name: Build modern dump.f2fs
+        run: |
+          set -Eeuo pipefail
+          git init /tmp/f2fs-tools
+          git -C /tmp/f2fs-tools remote add origin https://android.googlesource.com/platform/external/f2fs-tools
+          git -C /tmp/f2fs-tools fetch --depth 1 origin d34dcc887617535a0001ea389a2bb8058f41ea05
+          git -C /tmp/f2fs-tools checkout --detach FETCH_HEAD
+          cd /tmp/f2fs-tools
+          ./autogen.sh
+          ./configure
+          make -j"$(nproc)"
+          ./fsck/dump.f2fs -h 2>&1 || true
+      - name: Verify recursive dump flags
+        run: |
+          set -Eeuo pipefail
+          image=/tmp/empty-f2fs.img
+          output=/tmp/f2fs-out
+          truncate -s 134217728 "$image"
+          mkfs.f2fs -f -g android -l test "$image"
+          mkdir -p "$output"
+          sudo /tmp/f2fs-tools/fsck/dump.f2fs -r -f -P -o "$output" "$image"
+          test -d "$output"
+          echo 'modern-dump-f2fs=passed'
