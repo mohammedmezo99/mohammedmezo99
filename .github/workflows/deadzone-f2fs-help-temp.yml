@@ -12,22 +12,14 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
-      - name: Install F2FS tools
+      - name: Check F2FS kernel support
         run: |
           set -Eeuo pipefail
-          sudo apt-get update -y
-          sudo apt-get install -y f2fs-tools android-sdk-platform-tools
-      - name: Print supported CLI options
-        run: |
-          set -Eeuo pipefail
-          export PATH="/usr/lib/android-sdk/platform-tools:$PATH"
-          echo '=== dump.f2fs ==='
-          dump.f2fs -h 2>&1 || true
-          echo '=== sload_f2fs ==='
-          sload_f2fs -h 2>&1 || true
-          echo '=== make_f2fs ==='
-          make_f2fs -h 2>&1 || true
-          echo '=== fsck.f2fs ==='
-          fsck.f2fs -h 2>&1 || true
+          if grep -qw f2fs /proc/filesystems; then
+            echo 'f2fs-kernel-support=present'
+          else
+            echo 'f2fs-kernel-support=missing'
+            exit 1
+          fi
