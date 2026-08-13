@@ -66,7 +66,12 @@ jobs:
           set -e
           [[ "$rc" -eq 0 || "$rc" -eq 1 ]]
           fsck.f2fs --dry-run "$image" >/dev/null
-          fsck.f2fs -l "$image" 2>&1 | grep 'superblock features'
+          set +e
+          feature_output="$(fsck.f2fs -l "$image" 2>&1)"
+          feature_rc=$?
+          set -e
+          [[ "$feature_rc" -eq 0 || "$feature_rc" -eq 1 ]]
+          grep 'superblock features' <<< "$feature_output"
           /tmp/dump.f2fs -r -f -P -L -o "$output" "$image"
           test "$(cat "$output/etc/probe.txt")" = 'deadzone-f2fs-roundtrip'
           test -L "$output/bin/probe_link"
