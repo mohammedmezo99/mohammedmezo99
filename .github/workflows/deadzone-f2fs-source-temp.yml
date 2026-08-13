@@ -12,23 +12,43 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Test security xattrs on ext4 loop
+      - name: Install tools
         run: |
           set -Eeuo pipefail
           sudo apt-get update -y
-          sudo apt-get install -y e2fsprogs attr libcap2-bin
-          image=/tmp/deadzone-meta.ext4
-          mountpoint=/tmp/deadzone-meta
-          truncate -s 128M "$image"
-          mkfs.ext4 -q -F "$image"
-          mkdir -p "$mountpoint"
-          sudo mount -o loop "$image" "$mountpoint"
-          sudo touch "$mountpoint/probe"
-          sudo setfattr -n security.selinux -v 'u:object_r:system_file:s0' "$mountpoint/probe"
-          sudo getfattr -n security.selinux --only-values "$mountpoint/probe"
-          sudo setcap cap_net_bind_service=ep "$mountpoint/probe"
-          sudo getcap "$mountpoint/probe"
-          sudo umount "$mountpoint"
-          echo 'ext4-security-xattrs=passed'
+          sudo apt-get install -y f2fs-tools android-sdk-platform-tools e2fsprogs autoconf automake libtool pkg-config uuid-dev libselinux1-dev attr
+      - name: Build extractor
+        run: |
+          set -Eeuo pipefail
+          git init /tmp/f2fs-tools
+          git -C /tmp/f2fs-tools remote add origin https://android.googlesource.com/platform/external/f2fs-tools
+          git -C /tmp/f2fs-tools fetch --depth 1 origin a9066a4e23ec95265941e69eed12a2c1306d1527
+          git -C /tmp/f2fs-tools checkout --detach FETCH_HEAD
+          cd /tmp/f2fs-tools
+          ./autogen.sh >/dev/null
+          ./configure >/dev/null
+          make -j"$(nproc)" >/dev/null
+      - name: Verify SELinux metadata survives dump
+        run: |
+          set -Eeuo pipefail
+          export PATH="/usr/lib/android-sdk/platform-tools:$PATH"
+          mkdir -p /tmp/source/etc /tmp/output
+          printf 'deadzone\n' > /tmp/source/etc/probe.txt
+          printf 'system 0 0 0755\nsystem/etc 0 0 0755\nsystem/etc/probe.txt 0 0 0644\n' > /tmp/fs_config
+          printf '/system(/.*)? u:object_r:system_file:s0\n' > /tmp/file_contexts
+          truncate -s 128M /tmp/system.img
+          make_f2fs -g android -l system /tmp/system.img >/dev/null
+          set +e
+          /usr/sbin/sload.f2fs -C /tmp/fs_config -f /tmp/source -s /tmp/file_contexts -t /system /tmp/system.img
+          rc=$?
+          set -e
+          [[ "$rc" -eq 0 || "$rc" -eq 1 ]]
+          truncate -s 384M /tmp/stage.ext4
+          mkfs.ext4 -q -F /tmp/stage.ext4
+          sudo mount -o loop /tmp/stage.ext4 /tmp/output
+          sudo env LD_LIBRARY_PATH=/tmp/f2fs-tools/lib/.libs /tmp/f2fs-tools/fsck/.libs/fsck.f2fs -r -f -P -L -o /tmp/output /tmp/system.img
+          sudo getfattr -n security.selinux --only-values /tmp/output/etc/probe.txt | grep -q 'u:object_r:system_file:s0'
+          sudo umount /tmp/output
+          echo 'f2fs-selinux-metadata=passed'
