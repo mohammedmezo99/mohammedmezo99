@@ -28,7 +28,7 @@ jobs:
           git -C /tmp/f2fs-tools checkout --detach FETCH_HEAD
           cd /tmp/f2fs-tools
           ./autogen.sh >/dev/null
-          ./configure >/dev/null
+          CFLAGS='-DWITH_DUMP' ./configure >/dev/null
           make -j"$(nproc)" >/dev/null
           cp ./fsck/fsck.f2fs /tmp/dump.f2fs
           chmod 0755 /tmp/dump.f2fs
