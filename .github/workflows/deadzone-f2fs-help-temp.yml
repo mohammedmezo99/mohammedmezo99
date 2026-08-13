@@ -19,12 +19,12 @@ jobs:
           set -Eeuo pipefail
           sudo apt-get update -y
           sudo apt-get install -y f2fs-tools autoconf automake libtool pkg-config uuid-dev libselinux1-dev
-      - name: Build modern dump.f2fs
+      - name: Build recursive dump.f2fs
         run: |
           set -Eeuo pipefail
           git init /tmp/f2fs-tools
           git -C /tmp/f2fs-tools remote add origin https://android.googlesource.com/platform/external/f2fs-tools
-          git -C /tmp/f2fs-tools fetch --depth 1 origin d34dcc887617535a0001ea389a2bb8058f41ea05
+          git -C /tmp/f2fs-tools fetch --depth 1 origin c1a97862b05d8a736ad8719939395c61bd71c982
           git -C /tmp/f2fs-tools checkout --detach FETCH_HEAD
           cd /tmp/f2fs-tools
           ./autogen.sh >/dev/null
@@ -46,4 +46,4 @@ jobs:
           mkdir -p "$output"
           sudo /tmp/dump.f2fs -r -f -P -o "$output" "$image"
           test -d "$output"
-          echo 'modern-dump-f2fs=passed'
+          echo 'recursive-dump-f2fs=passed'
