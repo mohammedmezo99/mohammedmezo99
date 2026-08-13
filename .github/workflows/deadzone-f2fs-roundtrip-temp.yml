@@ -69,7 +69,7 @@ jobs:
           [[ "$sload_rc" -eq 0 || "$sload_rc" -eq 1 ]]
           [[ "$fsck_rc" -eq 0 || "$fsck_rc" -eq 1 ]]
           grep 'superblock features' <<< "$fsck_output"
-          /tmp/dump.f2fs -r -f -P -L -o "$output" "$image"
+          sudo env LD_LIBRARY_PATH=/tmp/f2fs-tools/lib/.libs /tmp/dump.f2fs -r -f -P -L -o "$output" "$image"
           test "$(cat "$output/etc/probe.txt")" = 'deadzone-f2fs-roundtrip'
           test -L "$output/bin/probe_link"
           test "$(readlink "$output/bin/probe_link")" = '../etc/probe.txt'
